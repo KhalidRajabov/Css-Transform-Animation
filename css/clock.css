@@ -71,3 +71,18 @@
   .seconds-container {
     animation: rotate 1s infinite linear;
   }
+
+  a{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: lime;
+    padding: 15px;
+    border: 1 px solid lime;
+    font-size: 25px;
+  }
