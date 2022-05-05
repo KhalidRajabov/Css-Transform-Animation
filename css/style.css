@@ -86,3 +86,98 @@
     border: 1 px solid lime;
     font-size: 25px;
   }
+
+
+
+
+
+
+
+
+
+
+.cube{
+  position: absolute;
+  width: 3.5%;
+  height: 7%;
+  background-color: aqua;
+  left: 2%;
+  top: 1%;
+  z-index: 1;
+  animation: mover 14s infinite alternate;
+}
+
+@keyframes mover{
+  0%{
+    top: 1%;
+    background-color: aqua;
+  }
+  7%{
+    top: 88%;
+    left: 2%;
+    transform: rotateZ(0deg);
+  }
+  14%{
+    top: 90%;
+    left: 30%;
+    transform: rotateZ(720deg);
+  }
+  21%{
+    top: 80%;
+    left: 30%;
+  }
+  28%{
+    transform: rotateZ(-900deg);
+    top: 40%;
+    left: 11%;
+  }
+  35%{
+    transform: rotateZ(360deg);
+    top: 5%;
+    left: 25%;
+  }
+  42%{
+    transform: rotateZ(1440deg);
+    top: 5%;
+    left: 77%;
+    border-radius: 0px;
+  }
+  49%{
+    top: 8%;
+    left: 85%;
+    transform: scaleX(1.7) scaleY(1.7);
+    border-radius: 20px;
+  }
+  56%{
+    top: 37%;
+    left: 90%;
+    transform: rotateZ(-360deg);
+  }
+  63%{
+    top: 88%;
+    left: 90%;
+    transform: rotateZ(-720deg);
+  }
+  70%{
+    top: 90%;
+    left: 80%;
+    transform: rotateZ(-720deg);
+  }
+  77%{
+    top: 80%;
+    left: 65%;
+  }
+  84%{
+    top: 27%;
+    left: 65%;
+  }
+  91%{
+    top: 27%;
+    left: 40%;
+  }
+  100%{
+    top: 110%;
+    left: 40%;
+  }
+  
+}
