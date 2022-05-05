@@ -151,29 +151,32 @@
   56%{
     top: 37%;
     left: 90%;
-    transform: rotateZ(-360deg);
+    transform: rotateZ(360deg);
   }
   63%{
     top: 88%;
     left: 90%;
-    transform: rotateZ(-720deg);
+    transform: rotateZ(1440deg);
   }
   70%{
     top: 90%;
     left: 80%;
-    transform: rotateZ(-720deg);
+    transform: rotateZ(1440deg);
   }
   77%{
     top: 80%;
     left: 65%;
+    transform: rotateZ(360deg);
   }
   84%{
     top: 27%;
     left: 65%;
+    transform: rotateZ(-720deg);
   }
   91%{
     top: 27%;
     left: 40%;
+    transform: rotateZ(1440deg);
   }
   100%{
     top: 110%;
