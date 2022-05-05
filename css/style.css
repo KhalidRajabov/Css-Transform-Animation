@@ -121,6 +121,7 @@
     top: 90%;
     left: 30%;
     transform: rotateZ(720deg);
+    background-color: rgb(0, 140, 255);
   }
   21%{
     top: 80%;
@@ -130,17 +131,22 @@
     transform: rotateZ(-900deg);
     top: 40%;
     left: 11%;
+    background-color: rgb(47, 0, 255);
   }
   35%{
     transform: rotateZ(360deg);
     top: 5%;
     left: 25%;
+    background-color: rgb(119, 0, 255);
+
   }
   42%{
     transform: rotateZ(1440deg);
     top: 5%;
     left: 77%;
     border-radius: 0px;
+    background-color: rgb(162, 0, 255);
+
   }
   49%{
     top: 8%;
@@ -152,35 +158,49 @@
     top: 37%;
     left: 90%;
     transform: rotateZ(360deg);
+    background-color: rgb(255, 0, 212);
+
   }
   63%{
     top: 88%;
     left: 90%;
     transform: rotateZ(1440deg);
+    background-color: rgb(255, 0, 55);
+
   }
   70%{
     top: 90%;
     left: 80%;
     transform: rotateZ(1440deg);
+    background-color: aqua;
+
   }
   77%{
     top: 80%;
     left: 65%;
     transform: rotateZ(360deg);
+    background-color: rgb(0, 255, 157);
+
   }
   84%{
     top: 27%;
     left: 65%;
     transform: rotateZ(-720deg);
+    background-color: rgb(157, 255, 0);
+
   }
   91%{
     top: 27%;
     left: 40%;
     transform: rotateZ(1440deg);
+    background-color: rgb(229, 255, 0);
+
   }
   100%{
     top: 110%;
     left: 40%;
+    background-color: rgb(255, 0, 0);
+
   }
   
 }
